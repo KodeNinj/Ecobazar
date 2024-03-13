@@ -5,8 +5,8 @@ import { BsBagCheck } from "react-icons/bs";
 
 const ValuesPanel = () => {
 	return (
-		<section className="flex md:justify-around justify-between gap-[32px] items-center lg:px-[100px] md:px-[40px] px-[20px]  py-[40px] flex-wrap ">
-			<div className="box mb-[20px] flex items-center gap-[16px] ">
+		<section className="flex justify-center gap-[32px] items-center lg:px-[100px] md:px-[40px] px-[20px]  py-[40px] flex-wrap ">
+			<div className="box mb-[20px] flex items-center lg:gap-[16px] md:gap-[10px] ">
 				<div className="icon">
 					<TbTruckDelivery
 						size={36}
