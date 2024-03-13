@@ -18,7 +18,7 @@ const Hero = () => {
 						className="lg:w-full w-[100vw] lg:h-full lg:rounded-lg"
 					/>
 					<div className="texts absolute top-0 left-0 text-white lg:px-[60px] md:px-[40px] px-[20px] flex flex-col  justify-center h-full ">
-						<h2 className="herotext md:text-[40px] sm:text-[38px]  text-[30px] w-[70%]  font-bold">
+						<h2 className="herotext md:text-[38px] sm:text-[36px]  text-[30px] w-[70%]  font-bold">
 							Fresh & Healthy Organic Food
 						</h2>
 						<div className="border-l-2 border-[var(--Soft-Primary)] px-4 my-[32px]">
@@ -46,15 +46,15 @@ const Hero = () => {
 							alt="hero img 1"
 							className="h-[37vh] w-full object-cover  lg:rounded-lg "
 						/>
-						<div className="text absolute lg:left-[16px] z-10 top-[32px] px-[16px] ">
-							<p className="text-[14px] ">SUMMER SALE</p>
-							<h3 className="text-[32px] font-bold mb-[10px]">75% OFF</h3>
+						<div className="text absolute lg:left-[16px] z-10 top-[32px] px-[24px] ">
+							<p className="md:text-[14px] text-[10px]">SUMMER SALE</p>
+							<h3 className="md:text-[32px] text-[24px] font-bold mb-[10px]">75% OFF</h3>
 							<p className="text-[14px] mb-[14px] text-[var(--lighttext)]">
 								Only Fruit & Vegetables
 							</p>
 							<a
 								href="#"
-								className="flex text-[16px] items-center gap-4 text-[var(--Soft-Primary)] hover:text-[var(--Primary)] transition-all ease">
+								className="flex md:text-[16px] text-[12px] items-center gap-4 text-[var(--Soft-Primary)] hover:text-[var(--Primary)] transition-all ease">
 								{" "}
 								Shop Now{" "}
 								<span>
