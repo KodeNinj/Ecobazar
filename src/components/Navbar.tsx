@@ -19,9 +19,7 @@ const NavBar = () => {
 					<span>
 						<MdOutlineLocationOn />
 					</span>
-					<p>
-						Store Location: Lincoln- 344, Illinois, Chicago, USA
-					</p>
+					<p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
 				</div>
 				<div className="right flex  items-center gap-5">
 					<div className="langCurr flex  items-center gap-4">
@@ -80,7 +78,7 @@ const NavBar = () => {
 								className="icon"
 							/>
 							<span className="absolute top-[-10%] right-[-30%] bg-[var(--Primary)] w-7 h-7 text-center rounded-full border-2 border-white text-[12px] flex items-center justify-center text-white">
-								0
+								90
 							</span>
 						</div>
 						<div className="cart">
@@ -127,7 +125,7 @@ const NavBar = () => {
 						<li>Contact Us</li>
 					</ul>
 				</div>
-				<div className="right lg:flex hidden items-center gap-4 text-white ">
+				<div className="right lg:flex hidden items-center gap-4 text-white text-[14px]">
 					<FaPhoneVolume />
 					(219) 555-0114
 				</div>
