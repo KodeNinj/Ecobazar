@@ -55,6 +55,15 @@ body {
 	.heartbagright {
 		gap: 5px;
 	}
+	.herotext{
+		font-size: 24px;
+	}
+	.heropee{
+		font-size: 12px;
+	}
+	.heropeeq {
+		font-size: 8px;
+	}
 }
 /* @layer components {
 	.btn_secondary {

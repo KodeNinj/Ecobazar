@@ -17,23 +17,23 @@ const Hero = () => {
 						alt="hero img 1"
 						className="lg:w-full w-[100vw] lg:h-full lg:rounded-lg"
 					/>
-					<div className="texts absolute top-0 left-0 text-white lg:px-[60px] md:px-[40px] px-[20px] flex flex-col  justify-center h-full">
-						<h2 className="lg:text-[48px] md:text-[32px] text-[20px] w-[70%]  font-bold">
+					<div className="texts absolute top-0 left-0 text-white lg:px-[60px] md:px-[40px] px-[20px] flex flex-col  justify-center h-full ">
+						<h2 className="herotext md:text-[48px] sm:text-[40px]  text-[32px] w-[70%]  font-bold">
 							Fresh & Healthy Organic Food
 						</h2>
 						<div className="border-l-2 border-[var(--Soft-Primary)] px-4 my-[32px]">
-							<p className="mb-[32px] lg:text-[20px] md:text-[18px] text-[16px]">
+							<p className="heropee mb-[32px] lg:text-[20px] md:text-[18px] text-[16px]">
 								Sale up to{" "}
 								<span className="px-[16px] py-[8px] rounded-lg font-extrabold bg-[var(--warning)]">
 									30% OFF
 								</span>
 							</p>
-							<p className="md:text-[14px] text-[10px] font-light">
+							<p className="heropeeq md:text-[14px] text-[10px] font-light">
 								Free shipping on all your order.
 							</p>
 						</div>
 
-						<button className="bg-white w-[25%] px-[16px] py-[10px] rounded-full justify-center flex items-center gap-2 text-[var(--Soft-Primary)] hover:text-[var(--Primary)]">
+						<button className="bg-white lg:w-[25%] md:w-[40%] w-[150px] px-[16px] py-[10px] rounded-full justify-center flex items-center lg:text-[16px] md:text-[14px] text-[10px] gap-2 text-[var(--Soft-Primary)] hover:text-[var(--Primary)] ">
 							Shop now <FaArrowRightLong />
 						</button>
 					</div>
