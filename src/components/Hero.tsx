@@ -46,7 +46,7 @@ const Hero = () => {
 							alt="hero img 1"
 							className="h-[37vh] w-full object-cover  lg:rounded-lg "
 						/>
-						<div className="text absolute lg:left-[32px] z-10 top-[32px] px-[16px] ">
+						<div className="text absolute lg:left-[16px] z-10 top-[32px] px-[16px] ">
 							<p className="text-[14px] ">SUMMER SALE</p>
 							<h3 className="text-[32px] font-bold mb-[10px]">75% OFF</h3>
 							<p className="text-[14px] mb-[14px] text-[var(--lighttext)]">
