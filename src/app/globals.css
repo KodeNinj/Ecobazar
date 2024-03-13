@@ -3,14 +3,15 @@
 @tailwind utilities;
 
 :root {
-	--Soft_Primary: #84d187;
+	--Soft-Primary: #84d187;
 	--Primary: #00b207;
-	--hard_Primary: #2c742f;
+	--hard-Primary: #2c742f;
 	--warning: #ff8a00;
 	--danger: #ea4b48;
 	--lighttext: #666;
 	--bgPanel: #333;
 	--linkGrey: #b2b2b2;
+	--shopgrey: #4d4d4d;
 }
 body {
 	user-select: none;

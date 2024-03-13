@@ -19,7 +19,9 @@ const NavBar = () => {
 					<span>
 						<MdOutlineLocationOn />
 					</span>
-					<p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+					<p>
+						Store Location: Lincoln- 344, Illinois, Chicago, USA
+					</p>
 				</div>
 				<div className="right flex  items-center gap-5">
 					<div className="langCurr flex  items-center gap-4">
@@ -82,7 +84,9 @@ const NavBar = () => {
 							</span>
 						</div>
 						<div className="cart">
-							<p className="text-[14px]">Shopping cart:</p>
+							<p className="text-[11px] text-[var(--shopgrey)]">
+								Shopping cart:
+							</p>
 							<p className="font-bold">$57.00</p>
 						</div>
 					</div>
