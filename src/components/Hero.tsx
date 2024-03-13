@@ -46,7 +46,7 @@ const Hero = () => {
 							alt="hero img 1"
 							className="h-[37vh] w-full object-cover  lg:rounded-lg "
 						/>
-						<div className="text absolute left-[32px] z-10 top-[32px] px-[16px]">
+						<div className="text absolute lg:left-[32px] z-10 top-[32px] px-[16px] ">
 							<p className="text-[14px] ">SUMMER SALE</p>
 							<h3 className="text-[32px] font-bold mb-[10px]">75% OFF</h3>
 							<p className="text-[14px] mb-[14px] text-[var(--lighttext)]">
@@ -71,8 +71,10 @@ const Hero = () => {
 							className="h-[35vh] w-full object-cover lg:rounded-lg"
 						/>
 						<div className="text absolute z-10 top-0 text-white flex flex-col items-center justify-center h-full w-full">
-							<p className="text-[14px] ">BEST DEAL</p>
-							<h3 className="font-bold  text-[32px] w-[50%] text-center my-[16px]">
+							<p className="lg:text-[14px] md:text-[12px] text-[10px] ">
+								BEST DEAL
+							</p>
+							<h3 className="font-bold  lg:text-[24px] md:text-[20px] text-[18px] md:w-[50%]  w-full text-center my-[16px]">
 								Special Products Deal of the Month
 							</h3>
 							<a

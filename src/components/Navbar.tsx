@@ -129,7 +129,7 @@ const NavBar = () => {
 					<FaPhoneVolume />
 					(219) 555-0114
 				</div>
-				<div className="logSign flex  items-center gap-2 cursor-pointer  lg:hidden text-white">
+				<div className="logSign flex  items-center gap-2 cursor-pointer  lg:hidden text-white text-[12px]">
 					<p className="hover:text-[var(--Primary)]">Sign in</p>
 					<span>/</span>
 					<p className="hover:text-[var(--Primary)]">Sign Up</p>
