@@ -5,12 +5,13 @@ import bg1 from "../../Assets/bg2.png";
 import bg2 from "../../Assets/bg3.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 import NavBar from "../NavBar";
+import ValuesPanel from "../ValuesPanel";
 
 const Hero = () => {
 	return (
-		<div className="w-full h-screen">
+		<div className="w-full PB-[40px] block">
 			<NavBar />
-			<div className="heroImg flex lg:flex-row flex-col h-[80vh] lg:px-[100px]  lg:py-[24px] lg:gap-3">
+			<div className="heroImg flex lg:flex-row flex-col min-h-[80vh] lg:px-[100px]  lg:py-[24px] lg:gap-3">
 				<div className="left lg:w-[60vw]  h-full relative">
 					<Image
 						src={bg}
@@ -38,6 +39,7 @@ const Hero = () => {
 						</button>
 					</div>
 				</div>
+				{/* End of the left hero box */}
 				<div className="right lg:w-[40vw]  w-full gap-3 h-full flex  flex-col  justify-around">
 					{/* Summer sales - second box */}
 					<div className="summer relative">
@@ -46,7 +48,7 @@ const Hero = () => {
 							alt="hero img 1"
 							className="h-[37vh] w-full object-cover  lg:rounded-lg "
 						/>
-						<div className="text absolute lg:left-[16px] z-10 top-[32px] px-[24px] ">
+						<div className="text absolute lg:left-[16px] z-1 top-[32px] px-[24px] ">
 							<p className="md:text-[14px] text-[10px]">SUMMER SALE</p>
 							<h3 className="md:text-[32px] text-[24px] font-bold mb-[10px]">
 								75% OFF
@@ -70,7 +72,7 @@ const Hero = () => {
 						<Image
 							src={bg2}
 							alt="hero img 1"
-							className="h-[35vh] w-full object-cover lg:rounded-lg"
+							className="h-[35vh] w-full object-cover lg:rounded-lg "
 						/>
 						<div className="text absolute z-10 top-0 text-white flex flex-col items-center justify-center h-full w-full">
 							<p className="lg:text-[14px] md:text-[12px] text-[10px] ">

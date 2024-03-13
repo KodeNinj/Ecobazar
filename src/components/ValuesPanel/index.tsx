@@ -5,8 +5,8 @@ import { BsBagCheck } from "react-icons/bs";
 
 const ValuesPanel = () => {
 	return (
-		<section className="flex justify-around gap-[32px] items-center px-[100px] py-[40px]">
-			<div className="box flex items-center gap-[16px] ">
+		<section className="flex md:justify-around justify-between gap-[32px] items-center lg:px-[100px] md:px-[40px] px-[20px]  py-[40px] flex-wrap ">
+			<div className="box mb-[20px] flex items-center gap-[16px] ">
 				<div className="icon">
 					<TbTruckDelivery
 						size={36}
@@ -20,7 +20,7 @@ const ValuesPanel = () => {
 					</p>
 				</div>
 			</div>
-			<div className="box flex items-center gap-[16px] ">
+			<div className="box mb-[20px] flex items-center gap-[16px] ">
 				<div className="icon">
 					<PiHeadsetLight
 						size={36}
@@ -34,7 +34,7 @@ const ValuesPanel = () => {
 					</p>
 				</div>
 			</div>
-			<div className="box flex items-center gap-[16px] ">
+			<div className="box mb-[20px] flex items-center gap-[16px] ">
 				<div className="icon">
 					<BsBagCheck
 						size={36}
@@ -48,7 +48,7 @@ const ValuesPanel = () => {
 					</p>
 				</div>
 			</div>
-			<div className="box flex items-center gap-[16px] ">
+			<div className="box mb-[20px] flex items-center gap-[16px] ">
 				<div className="icon">
 					<PiPackageLight
 						size={36}

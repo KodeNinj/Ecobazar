@@ -4,9 +4,9 @@ import React from "react";
 import Data from "@/Data";
 const page = () => {
 	return (
-		<div className="w-full">
+		<div className="w-full min-h-[100vh]">
 			<Hero />
-			<ValuesPanel  />
+			<ValuesPanel />
 		</div>
 	);
 };
