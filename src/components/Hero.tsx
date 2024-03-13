@@ -18,7 +18,7 @@ const Hero = () => {
 						className="lg:w-full w-[100vw] lg:h-full lg:rounded-lg"
 					/>
 					<div className="texts absolute top-0 left-0 text-white lg:px-[60px] md:px-[40px] px-[20px] flex flex-col  justify-center h-full ">
-						<h2 className="herotext md:text-[48px] sm:text-[40px]  text-[32px] w-[70%]  font-bold">
+						<h2 className="herotext md:text-[40px] sm:text-[38px]  text-[30px] w-[70%]  font-bold">
 							Fresh & Healthy Organic Food
 						</h2>
 						<div className="border-l-2 border-[var(--Soft-Primary)] px-4 my-[32px]">
