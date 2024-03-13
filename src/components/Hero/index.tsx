@@ -12,7 +12,7 @@ const Hero = () => {
 		<div className="w-full PB-[40px] block">
 			<NavBar />
 			<div className="heroImg flex lg:flex-row flex-col min-h-[80vh] lg:px-[100px]  lg:py-[24px] lg:gap-3">
-				<div className="left lg:w-[60vw]  h-full relative">
+				<div className="left lg:w-[60vw]  min-h-full relative">
 					<Image
 						src={bg}
 						alt="hero img 1"
