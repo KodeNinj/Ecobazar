@@ -3,31 +3,69 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+	--Soft_Primary: #84d187;
+	--Primary: #00b207;
+	--hard_Primary: #2c742f;
+	--warning: #ff8a00;
+	--danger: #ea4b48;
+	--lighttext: #666;
+	--bgPanel: #333;
+	--linkGrey: #b2b2b2;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	user-select: none;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.firstlayer {
+	user-select: none;
 }
+.thirdlayer ul li {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	cursor: pointer;
+	color: var(--linkGrey);
+}
+.thirdlayer ul li:hover {
+	color: var(--Soft_Primary);
+}
+.thirdlayer ul li#active {
+	color: white;
+}
+.logo {
+	user-select: none;
+}
+@media screen and (max-width: 520px) {
+	.langCurr {
+		display: none;
+	}
+	.firstlayer {
+		justify-content: center;
+		font-size: 10px;
+	}
+	.firstlayer p {
+		text-align: center;
+	}
+	.cart {
+		display: none;
+	}
+	.icon {
+		scale: calc(0.8);
+	}
+	.heartbagright {
+		gap: 5px;
+	}
+}
+/* @layer components {
+	.btn_secondary {
+		@apply px-10 py-2 border-2  rounded-sm border-[var(--grey)];
+	}
+	.btn_primary {
+		@apply px-24 py-3 border-2  rounded-sm  cursor-pointer bg-[var(--mainblack)] text-[var(--grey)];
+	}
+	.li {
+		@apply text-[var(--sndblack)] transition-all ease-in cursor-pointer;
+	}
+	.li:hover {
+		@apply text-[var(--mainblack)] transition-all ease-in;
+	}
+} */
