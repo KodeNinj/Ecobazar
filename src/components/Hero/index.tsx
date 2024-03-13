@@ -1,10 +1,10 @@
 import React from "react";
-import NavBar from "./Navbar";
 import Image from "next/image";
-import bg from "../../public/bg.png";
-import bg1 from "../../public/bg2.png";
-import bg2 from "../../public/bg3.png";
+import bg from "../../Assets/bg.png";
+import bg1 from "../../Assets/bg2.png";
+import bg2 from "../../Assets/bg3.png";
 import { FaArrowRightLong } from "react-icons/fa6";
+import NavBar from "../NavBar";
 
 const Hero = () => {
 	return (
@@ -48,7 +48,9 @@ const Hero = () => {
 						/>
 						<div className="text absolute lg:left-[16px] z-10 top-[32px] px-[24px] ">
 							<p className="md:text-[14px] text-[10px]">SUMMER SALE</p>
-							<h3 className="md:text-[32px] text-[24px] font-bold mb-[10px]">75% OFF</h3>
+							<h3 className="md:text-[32px] text-[24px] font-bold mb-[10px]">
+								75% OFF
+							</h3>
 							<p className="text-[14px] mb-[14px] text-[var(--lighttext)]">
 								Only Fruit & Vegetables
 							</p>

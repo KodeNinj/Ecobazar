@@ -6,7 +6,7 @@ import {
 	MdOutlineMenu,
 } from "react-icons/md";
 import Image from "next/image";
-import logo from "../../public/Logo.png";
+import logo from "../../Assets/Logo.png";
 import { IoHeartOutline } from "react-icons/io5";
 import { PiHandbagLight } from "react-icons/pi";
 import { FaPhoneVolume } from "react-icons/fa6";
