@@ -55,14 +55,26 @@ body {
 	.heartbagright {
 		gap: 5px;
 	}
-	.herotext{
+	.herotext {
 		font-size: 24px;
 	}
-	.heropee{
+	.heropee {
 		font-size: 12px;
 	}
 	.heropeeq {
 		font-size: 8px;
+	}
+}
+@media screen and (max-width: 380px) {
+	.herotext {
+		font-size: 18px;
+	}
+	.heropee {
+		font-size: 8px;
+	}
+	.heropeeq {
+		font-size: 6px;
+		margin-top: -15px;
 	}
 }
 /* @layer components {

@@ -33,7 +33,7 @@ const Hero = () => {
 							</p>
 						</div>
 
-						<button className="bg-white lg:w-[25%] md:w-[40%] w-[150px] px-[16px] py-[10px] rounded-full justify-center flex items-center lg:text-[16px] md:text-[14px] text-[10px] gap-2 text-[var(--Soft-Primary)] hover:text-[var(--Primary)] ">
+						<button className="bg-white lg:w-[25%] md:w-[40%] w-[120px] px-[16px] py-[10px] rounded-full justify-center flex items-center lg:text-[16px] md:text-[14px] text-[10px] gap-2 text-[var(--Soft-Primary)] hover:text-[var(--Primary)] ">
 							Shop now <FaArrowRightLong />
 						</button>
 					</div>
