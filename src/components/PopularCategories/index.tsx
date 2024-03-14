@@ -20,7 +20,9 @@ const Popular = () => {
 								alt={each.title}
 								width={190}
 							/>
-							<p className="mt-[24px] text-[18px] font-medium">{each.title}</p>
+							<p className="mt-[24px] md:text-[18px] text-[14px] font-medium">
+								{each.title}
+							</p>
 						</div>
 					);
 				})}
