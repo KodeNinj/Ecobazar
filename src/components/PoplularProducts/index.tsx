@@ -35,7 +35,7 @@ const PopularProducts = () => {
 									</p>
 									<Image
 										src={Rating}
-										alt="rating"
+										alt="ratings"
 									/>
 								</div>
 								<div
