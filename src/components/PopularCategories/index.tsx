@@ -9,7 +9,7 @@ const Popular = () => {
 				title="Popular Categories"
 				view_all="View all"
 			/>
-			<div className="flex flex-wrap lg:justify-between justify-center gap-[24px] items-center text-center mt-[32px]">
+			<div className="flex flex-wrap lg:justify-between justify-center lg:gap-[24px] md:gap-[14px] gap-[10px] items-center text-center mt-[32px]">
 				{popularData.map((each): JSX.Element => {
 					return (
 						<div
