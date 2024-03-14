@@ -67,17 +67,17 @@ const NavBar = () => {
 				</div>
 				<div className="heartbagright flex items-center gap-4">
 					<IoHeartOutline
-						size={40}
+						size={32}
 						className="icon"
 					/>
 					<span className="text-[var(--lighttext)]">|</span>
 					<div className="shopping flex gap-5 items-center">
 						<div className="icon relative">
 							<PiHandbagLight
-								size={40}
+								size={32}
 								className="icon"
 							/>
-							<span className="absolute top-[-10%] right-[-30%] bg-[var(--Primary)] w-7 h-7 text-center rounded-full border-2 border-white text-[12px] flex items-center justify-center text-white">
+							<span className="absolute top-[-20%] right-[-50%] bg-[var(--Primary)] w-7 h-7 text-center rounded-full border-2 border-white text-[12px] flex items-center justify-center text-white">
 								90
 							</span>
 						</div>

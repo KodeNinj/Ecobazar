@@ -14,6 +14,7 @@
 	--linkGrey: #b2b2b2;
 	--shopgrey: #4d4d4d;
 	--bordercolor: #e6e6e6;
+	--iconBg: #f2f2f2;
 }
 body {
 	user-select: none;
@@ -79,6 +80,12 @@ body {
 		font-size: 6px;
 		margin-top: -15px;
 	}
+}
+#true {
+	display: block;
+}
+#false {
+	display: none;
 }
 /* @layer components {
 	.btn_secondary {

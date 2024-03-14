@@ -1,4 +1,4 @@
-let popularData = [
+let PopularCategories = [
 	{
 		id: 1,
 		title: "Fresh Fruit",
@@ -61,4 +61,4 @@ let popularData = [
 	},
 ];
 
-export default popularData;
+export default PopularCategories;

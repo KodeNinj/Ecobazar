@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Headers";
-import popularData from "@/Data/popularProducts";
+import popularData from "@/Data/PopularCategories";
 import Image from "next/image";
 const Popular = () => {
 	return (
