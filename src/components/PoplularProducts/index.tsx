@@ -5,9 +5,7 @@ import PRODUCTS_LIST from "../../Data/PopularProducts";
 import Image from "next/image";
 import Rating from "@/Assets/Rating.png";
 import { PiHandbagLight } from "react-icons/pi";
-import Link from "next/link";
-import { FaRegHeart } from "react-icons/fa6";
-import { IoEyeOutline } from "react-icons/io5";
+import HiddenBtn from "../HiddenBtn";
 
 const PopularProducts = () => {
 	const [handleviewState, sethandleviewState] = useState(false);
@@ -30,22 +28,8 @@ const PopularProducts = () => {
 								width={200}
 							/>
 							{/* handles the toggling of the hidden buttons on each cards */}
-							{ITEM.viewClicked ? (
-								<div className="absolute top-3 right-6 flex flex-col gap-[16px] ">
-									<Link
-										href="/"
-										className="p-[10px] bg-white rounded-full border-[2px] border-[var(--iconBg)] shadow-sm flex items-center justify-center">
-										<FaRegHeart size={18} />
-									</Link>
-									<Link
-										href="/"
-										className="p-[10px] bg-white rounded-full border-[2px] border-[var(--iconBg)] shadow-sm flex items-center justify-center">
-										<IoEyeOutline size={18} />
-									</Link>
-								</div>
-							) : (
-								""
-							)}
+							{ITEM.viewClicked ? <HiddenBtn /> : ""}
+							{/* ends here */}
 							<div className="deets flex items-center justify-between">
 								<div className="left">
 									<h2 className="group-hover:text-[var(--Primary)] name text-[14px] text-[var(--shopgrey)]">
