@@ -13,8 +13,25 @@ const BannerCards = () => {
 					<div className="subtext text-[12px] uppercase mb-[16px]">
 						Best Deals
 					</div>
-					<div className="mainHeader text-[18px] capitalize font-bold">
+					<div className="mainHeader text-[32px] capitalize font-bold">
 						Sale of the Month
+					</div>
+					<div className="time flex items-top justify-center gap-6 text-[16px] ">
+						<p className="cardTime">
+							00 <span>DAYS</span>
+						</p>
+						<p>:</p>
+						<p className="cardTime">
+							02 <span>HOURS</span>
+						</p>
+						<p>:</p>
+						<p className="cardTime">
+							02 <span>MINS</span>
+						</p>
+						<p>:</p>
+						<p className="cardTime">
+							02 <span>SECS</span>
+						</p>
 					</div>
 				</div>
 			</div>

@@ -90,17 +90,11 @@ body {
 .hide {
 	display: none;
 }
-/* @layer components {
-	.btn_secondary {
-		@apply px-10 py-2 border-2  rounded-sm border-[var(--grey)];
+@layer components {
+	.cardTime {
+		@apply flex gap-1 flex-col text-center font-bold text-[24px];
 	}
-	.btn_primary {
-		@apply px-24 py-3 border-2  rounded-sm  cursor-pointer bg-[var(--mainblack)] text-[var(--grey)];
+	.cardTime span {
+		@apply font-normal text-[10px];
 	}
-	.li {
-		@apply text-[var(--sndblack)] transition-all ease-in cursor-pointer;
-	}
-	.li:hover {
-		@apply text-[var(--mainblack)] transition-all ease-in;
-	}
-} */
+}
