@@ -22,7 +22,7 @@ const PopularProducts = () => {
 				{PRODUCTS_LIST.map((ITEM): JSX.Element => {
 					return (
 						<div
-							className="px-[16px] py-[24px] border-[1px] border-collapse relative hover:border-[var(--Soft-Primary)] ease transition-all"
+							className="px-[16px] py-[24px] border-[1px] border-collapse relative hover:border-[var(--Soft-Primary)] ease transition-all hover:shadow-md"
 							key={ITEM.id}>
 							<Image
 								src={ITEM.img}
