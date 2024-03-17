@@ -81,10 +81,13 @@ body {
 		margin-top: -15px;
 	}
 }
-#true {
+
+.true,
+.show {
 	display: block;
 }
-#false {
+.false,
+.hide {
 	display: none;
 }
 /* @layer components {

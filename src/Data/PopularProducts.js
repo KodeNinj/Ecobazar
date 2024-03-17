@@ -2,6 +2,7 @@ const PopularProducts = [
 	{
 		id: 1,
 		name: "Green Apple",
+		state: "hide",
 		new_price: 14.49,
 		img: require("../Assets/Product/1.png"),
 		old_price: 20.99,
@@ -9,6 +10,7 @@ const PopularProducts = [
 		isLiked: false,
 		viewClicked: false,
 		cartBtnStateActive: false,
+		state: "hide",
 	},
 	{
 		id: 2,
@@ -19,6 +21,7 @@ const PopularProducts = [
 		isLiked: false,
 		viewClicked: false,
 		cartBtnStateActive: false,
+		state: "hide",
 	},
 	{
 		id: 3,
@@ -29,6 +32,7 @@ const PopularProducts = [
 		isLiked: false,
 		viewClicked: false,
 		cartBtnStateActive: false,
+		state: "hide",
 	},
 	{
 		id: 4,
@@ -39,6 +43,7 @@ const PopularProducts = [
 		isLiked: false,
 		viewClicked: false,
 		cartBtnStateActive: false,
+		state: "hide",
 	},
 	{
 		id: 5,
@@ -49,6 +54,7 @@ const PopularProducts = [
 		isLiked: false,
 		viewClicked: false,
 		cartBtnStateActive: false,
+		state: "hide",
 	},
 	{
 		id: 6,
@@ -59,6 +65,7 @@ const PopularProducts = [
 		isLiked: false,
 		viewClicked: false,
 		cartBtnStateActive: false,
+		state: "hide",
 	},
 	{
 		id: 7,
@@ -69,6 +76,7 @@ const PopularProducts = [
 		isLiked: false,
 		viewClicked: false,
 		cartBtnStateActive: false,
+		state: "hide",
 	},
 	{
 		id: 8,
@@ -79,6 +87,7 @@ const PopularProducts = [
 		isLiked: false,
 		viewClicked: false,
 		cartBtnStateActive: false,
+		state: "hide",
 	},
 	{
 		id: 9,
@@ -89,6 +98,7 @@ const PopularProducts = [
 		isLiked: false,
 		viewClicked: false,
 		cartBtnStateActive: false,
+		state: "hide",
 	},
 	{
 		id: 10,
@@ -99,6 +109,7 @@ const PopularProducts = [
 		isLiked: false,
 		viewClicked: false,
 		cartBtnStateActive: false,
+		state: "hide",
 	},
 ];
 
