@@ -22,7 +22,7 @@ const PopularProducts = () => {
 				{PRODUCTS_LIST.map((ITEM): JSX.Element => {
 					return (
 						<div
-							className="px-[16px] py-[24px] border-[1px] border-collapse relative hover:border-[var(--Soft-Primary)] ease transition-all hover:shadow-md"
+							className="group px-[16px] py-[24px] border-[1px] border-collapse relative hover:border-[var(--Soft-Primary)] ease transition-all hover:shadow-md"
 							key={ITEM.id}>
 							<Image
 								src={ITEM.img}
@@ -48,7 +48,7 @@ const PopularProducts = () => {
 							)}
 							<div className="deets flex items-center justify-between">
 								<div className="left">
-									<h2 className="name text-[14px] text-[var(--shopgrey)]">
+									<h2 className="group-hover:text-[var(--Primary)] name text-[14px] text-[var(--shopgrey)]">
 										{ITEM.name}
 									</h2>
 									<p className="price">
