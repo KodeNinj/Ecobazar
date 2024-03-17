@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const BannerCards = () => {
 	return (
-		<section className="flex flex-wrap items-center justify-center gap-4 my-[40px] w-full bg-red-100 lg:px-[100px] md:px-[40px] px-[20px]">
+		<section className="flex flex-wrap items-center justify-center gap-4 my-[40px] w-full  lg:px-[100px] md:px-[40px] px-[20px]">
 			<div className="sales relative">
 				<Image
 					src={require("../../Assets/bannerCard/sale.png")}
