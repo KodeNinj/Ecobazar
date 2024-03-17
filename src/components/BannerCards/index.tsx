@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const BannerCards = () => {
 	return (
@@ -33,6 +34,10 @@ const BannerCards = () => {
 							02 <span>SECS</span>
 						</p>
 					</div>
+					{/* end of time */}
+					<button className="flex items-center justify-center gap-[16px] px-[32px] py-[10px] bg-white text-[var(--Primary)] rounded-full my-[32px]">
+						Shop Now <FaArrowRightLong />
+					</button>
 				</div>
 			</div>
 			<div className="lowFat relative">
