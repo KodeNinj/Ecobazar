@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const BannerCards = () => {
 	return (
-		<section className="flex flex-wrap items-center justify-center gap-4 my-[40px] w-full  lg:px-[100px] md:px-[40px] px-[20px]">
+		<section className="flex flex-wrap items-center justify-center gap-4 lg:my-[80px] my-[40px] w-full  lg:px-[100px] md:px-[40px] px-[20px]">
 			<div className="sales relative">
 				<Image
 					src={require("../../Assets/bannerCard/sale.png")}
@@ -14,22 +14,22 @@ const BannerCards = () => {
 					<div className="subtext text-[12px] uppercase mb-[16px]">
 						Best Deals
 					</div>
-					<div className="mainHeader text-[32px] capitalize font-bold">
+					<div className="mainHeader lg:text-[32px] md:text-[24px] text-[20px] capitalize font-bold">
 						Sale of the Month
 					</div>
-					<div className="time flex items-top justify-center gap-6 text-[16px] ">
+					<div className="time flex items-top justify-center gap-6 mt-[14px ">
 						<p className="cardTime">
 							00 <span>DAYS</span>
 						</p>
-						<p>:</p>
+						<p className="mt-[4px]">:</p>
 						<p className="cardTime">
 							02 <span>HOURS</span>
 						</p>
-						<p>:</p>
+						<p className="mt-[4px]">:</p>
 						<p className="cardTime">
 							02 <span>MINS</span>
 						</p>
-						<p>:</p>
+						<p className="mt-[4px]">:</p>
 						<p className="cardTime">
 							02 <span>SECS</span>
 						</p>

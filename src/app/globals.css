@@ -92,7 +92,7 @@ body {
 }
 @layer components {
 	.cardTime {
-		@apply flex gap-1 flex-col text-center font-medium text-[24px];
+		@apply flex gap-1 flex-col text-center font-medium lg:text-[24px] md:text-[20px] text-[18px] ;
 	}
 	.cardTime span {
 		@apply font-normal text-[10px];
