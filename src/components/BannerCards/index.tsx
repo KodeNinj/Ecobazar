@@ -17,7 +17,7 @@ const BannerCards = () => {
 					<div className="mainHeader lg:text-[32px] md:text-[24px] text-[20px] capitalize font-semibold">
 						Sale of the Month
 					</div>
-					<div className="time flex items-top justify-center gap-6 mt-[14px ">
+					<div className="time flex items-top justify-center gap-6 mt-[10px] lg:text-[14px] md:text-[12px] text-[10px] ">
 						<p className="cardTime">
 							00 <span>DAYS</span>
 						</p>
@@ -55,7 +55,9 @@ const BannerCards = () => {
 					</div>
 					<p>
 						Started at{" "}
-						<span className="font-bold text-[var(--warning)]">$79.99</span>
+						<span className="font-bold text-[var(--warning)] lg:text-[16px] md:text-[14px] text-[12px]">
+							$79.99
+						</span>
 					</p>
 					<button className="flex items-center justify-center gap-[16px] px-[32px] py-[10px] bg-white text-[var(--Primary)] rounded-full my-[32px]">
 						Shop Now <FaArrowRightLong />
@@ -74,7 +76,7 @@ const BannerCards = () => {
 					<div className="mainHeader lg:text-[32px] md:text-[24px] text-[20px] capitalize font-semibold">
 						100% Fresh Fruit
 					</div>
-					<p className="mt-[16px]">
+					<p className="mt-[16px] lg:text-[16px] md:text-[14px] text-[12px]">
 						Up to{" "}
 						<span className="px-[10px] py-[10px] bg-black font-bold text-[var(--yellow)] rounded-md mx-[4px]">
 							64% OFF
