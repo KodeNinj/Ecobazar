@@ -55,10 +55,10 @@ const HotDeals = () => {
 						</div>
 						{/* OFFER TIME */}
 						<div className="my-[16px]">
-							<p className="text-center text-[16px] text-[var(--priceGrey)]">
+							<p className="text-center md:text-[16px] sm:text-[14px] text-[var(--priceGrey)]">
 								Hurry up! Offer ends In:
 							</p>
-							<div className="Timecontainer flex items-start justify-center text-[20px] font-medium gap-4 text-center">
+							<div className="Timecontainer flex items-start justify-center md:text-[20px] text-[16px] font-medium gap-4 text-center">
 								<div className="day">
 									<h4>02</h4>
 									<p className="text-[12px] text-[var(--priceGrey)]">DAYS</p>
