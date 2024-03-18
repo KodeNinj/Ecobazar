@@ -27,7 +27,7 @@ const HotDeals = () => {
 								className="p-[10px] bg-white rounded-full border-[2px] border-[var(--iconBg)] shadow-sm flex items-center justify-center">
 								<FaRegHeart size={18} />
 							</Link>
-							<button className="px-[24px] py-[10px] bg-[var(--Primary)] text-white flex-1 rounded-full mx-[40px]">
+							<button className="px-[24px] py-[10px] bg-[var(--Primary)] text-white flex-1 rounded-full mx-[10px]">
 								click me
 							</button>
 							<Link
