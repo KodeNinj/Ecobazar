@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const BannerCards = () => {
 	return (
 		<section className="flex flex-wrap items-center justify-center gap-4 lg:my-[80px] my-[40px] w-full  lg:px-[100px] md:px-[40px] px-[20px]">
-			<div className="sales relative">
+			<div className="sales relative hover:translate-y-[-20px] transition-all ease-in duration-[1s]">
 				<Image
 					src={require("../../Assets/bannerCard/sale.png")}
 					alt="sale img"
@@ -41,7 +41,7 @@ const BannerCards = () => {
 				</div>
 			</div>
 			{/* end of first card */}
-			<div className="lowFat relative">
+			<div className="lowFat relative hover:translate-y-[-20px] transition-all ease-in duration-[1s]">
 				<Image
 					src={require("../../Assets/bannerCard/lowfat.png")}
 					alt="sale img"
@@ -62,7 +62,7 @@ const BannerCards = () => {
 					</button>
 				</div>
 			</div>
-			<div className="freshFruit relative">
+			<div className="freshFruit relative hover:translate-y-[-20px] transition-all ease-in duration-[1s]">
 				<Image
 					src={require("../../Assets/bannerCard/freshFruit.png")}
 					alt="sale img"
