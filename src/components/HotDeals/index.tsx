@@ -28,7 +28,7 @@ const HotDeals = () => {
 								<FaRegHeart size={18} />
 							</Link>
 							<button className="px-[24px] py-[10px] bg-[var(--Primary)] text-white flex-1 rounded-full mx-[10px] text-[18px]">
-								Click me
+								Add To Cart
 							</button>
 							<Link
 								href="/"
