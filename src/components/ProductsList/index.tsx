@@ -27,7 +27,8 @@ const ProductList = () => {
 							{ITEM.name}
 						</h2>
 						<p className="price">
-							${ITEM.new_price} <span>{ITEM.old_price}</span>
+							${ITEM.new_price}{" "}
+							<s className="text-[var(--priceGrey)] ">{ITEM.old_price}</s>
 						</p>
 						<Image
 							src={Rating}

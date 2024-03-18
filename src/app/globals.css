@@ -16,6 +16,7 @@
 	--bordercolor: #e6e6e6;
 	--iconBg: #f2f2f2;
 	--yellow: #fcc900;
+	--priceGrey: #999;
 }
 body {
 	user-select: none;
