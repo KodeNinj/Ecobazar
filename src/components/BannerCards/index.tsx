@@ -27,11 +27,11 @@ const BannerCards = () => {
 						</p>
 						<p className="mt-[4px]">:</p>
 						<p className="cardTime">
-							02 <span>MINS</span>
+							18 <span>MINS</span>
 						</p>
 						<p className="mt-[4px]">:</p>
 						<p className="cardTime">
-							02 <span>SECS</span>
+							46 <span>SECS</span>
 						</p>
 					</div>
 					{/* end of time */}
