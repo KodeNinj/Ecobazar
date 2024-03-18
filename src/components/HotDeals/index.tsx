@@ -38,7 +38,7 @@ const HotDeals = () => {
 						</div>
 						{/* title + price */}
 						<div className="px-[10px] text-center mt-[16px] py-[16px]">
-							<h3 className="lg:text-[24px] md:text-[20px] text-[18px] ">
+							<h3 className="lg:text-[26px] md:text-[24px] text-[18px] ">
 								Chinese cabbage
 							</h3>
 							<p className="font-semibold text-[18px] md:mt-[16px] mt-[8px]">
