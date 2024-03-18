@@ -36,12 +36,12 @@ const HotDeals = () => {
 								<IoEyeOutline size={18} />
 							</Link>
 						</div>
-						<p className="px-[10px] text-center mt-[16px] py-[16px]">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-							Consequuntur asperiores accusantium ipsam error quis quos quo
-							autem dignissimos obcaecati numquam quaerat saepe fugit
-							aspernatur, velit, commodi ullam hic ipsa iure.
-						</p>
+						<div className="px-[10px] text-center mt-[16px] py-[16px]">
+							<h3>Chinese cabbage</h3>
+							<p>
+								$12.00 <s className="text-[var(--priceGrey)]">$24.00</s>
+							</p>
+						</div>
 					</div>
 					<ProductList />
 					<ProductList />
