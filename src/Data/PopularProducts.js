@@ -71,7 +71,7 @@ const PopularProducts = [
 		id: 7,
 		name: "Corn",
 		new_price: 34.0,
-		img: require("../Assets/Product/5.png"),
+		img: require("../Assets/Product/7.png"),
 		rating: 3,
 		isLiked: false,
 		viewClicked: false,

@@ -11,7 +11,7 @@ const BannerCards = () => {
 					alt="sale img"
 				/>
 				<div className="absolute top-[32px] flex items-center w-full flex-col text-white">
-					<div className="subtext text-[12px] uppercase mb-[16px]">
+					<div className="subtext text-[12px] uppercase mb-[16px] font-medium">
 						Best Deals
 					</div>
 					<div className="mainHeader lg:text-[32px] md:text-[24px] text-[20px] capitalize font-bold">
@@ -40,17 +40,50 @@ const BannerCards = () => {
 					</button>
 				</div>
 			</div>
+			{/* end of first card */}
 			<div className="lowFat relative">
 				<Image
 					src={require("../../Assets/bannerCard/lowfat.png")}
 					alt="sale img"
 				/>
+				<div className="absolute top-[32px] flex items-center w-full flex-col text-white">
+					<div className="subtext text-[12px] uppercase mb-[16px] font-medium">
+						85% Fat Free
+					</div>
+					<div className="mainHeader lg:text-[32px] md:text-[24px] text-[20px] capitalize font-bold">
+						Low-Fat Meat
+					</div>
+					<p>
+						Started at{" "}
+						<span className="font-bold text-[var(--warning)]">$79.99</span>
+					</p>
+					<button className="flex items-center justify-center gap-[16px] px-[32px] py-[10px] bg-white text-[var(--Primary)] rounded-full my-[32px]">
+						Shop Now <FaArrowRightLong />
+					</button>
+				</div>
 			</div>
 			<div className="freshFruit relative">
 				<Image
 					src={require("../../Assets/bannerCard/freshFruit.png")}
 					alt="sale img"
 				/>
+				<div className="absolute top-[32px] flex items-center w-full flex-col text-black">
+					<div className="subtext text-[12px] uppercase mb-[16px] font-medium">
+						Summer Sale
+					</div>
+					<div className="mainHeader lg:text-[32px] md:text-[24px] text-[20px] capitalize font-bold">
+						100% Fresh Fruit
+					</div>
+					<p>
+						Up to{" "}
+						<span className="px-[10px] py-[10px] bg-black font-bold text-[var(--yellow)] rounded-md mx-[10px]">
+							64% OFF
+						</span>
+					</p>
+					<button className="flex items-center justify-center gap-[16px] px-[32px] py-[10px] bg-white text-[var(--Primary)] rounded-full my-[32px]">
+						Shop Now <FaArrowRightLong />
+					</button>
+				</div>
 			</div>
 		</section>
 	);

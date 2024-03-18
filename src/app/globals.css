@@ -15,6 +15,7 @@
 	--shopgrey: #4d4d4d;
 	--bordercolor: #e6e6e6;
 	--iconBg: #f2f2f2;
+	--yellow: #fcc900;
 }
 body {
 	user-select: none;
@@ -92,7 +93,7 @@ body {
 }
 @layer components {
 	.cardTime {
-		@apply flex gap-1 flex-col text-center font-medium lg:text-[24px] md:text-[20px] text-[18px] ;
+		@apply flex gap-1 flex-col text-center font-medium lg:text-[24px] md:text-[20px] text-[18px];
 	}
 	.cardTime span {
 		@apply font-normal text-[10px];
