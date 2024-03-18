@@ -76,7 +76,7 @@ const BannerCards = () => {
 					</div>
 					<p className="mt-[16px]">
 						Up to{" "}
-						<span className="px-[10px] py-[10px] bg-black font-bold text-[var(--yellow)] rounded-md mx-[10px]">
+						<span className="px-[10px] py-[10px] bg-black font-bold text-[var(--yellow)] rounded-md mx-[4px]">
 							64% OFF
 						</span>
 					</p>
