@@ -14,7 +14,7 @@ const BannerCards = () => {
 					<div className="subtext text-[12px] uppercase mb-[16px] font-medium">
 						Best Deals
 					</div>
-					<div className="mainHeader lg:text-[32px] md:text-[24px] text-[20px] capitalize font-bold">
+					<div className="mainHeader lg:text-[32px] md:text-[24px] text-[20px] capitalize font-semibold">
 						Sale of the Month
 					</div>
 					<div className="time flex items-top justify-center gap-6 mt-[14px ">
@@ -50,7 +50,7 @@ const BannerCards = () => {
 					<div className="subtext text-[12px] uppercase mb-[16px] font-medium">
 						85% Fat Free
 					</div>
-					<div className="mainHeader lg:text-[32px] md:text-[24px] text-[20px] capitalize font-bold">
+					<div className="mainHeader lg:text-[32px] md:text-[24px] text-[20px] capitalize font-semibold">
 						Low-Fat Meat
 					</div>
 					<p>
@@ -71,10 +71,10 @@ const BannerCards = () => {
 					<div className="subtext text-[12px] uppercase mb-[16px] font-medium">
 						Summer Sale
 					</div>
-					<div className="mainHeader lg:text-[32px] md:text-[24px] text-[20px] capitalize font-bold">
+					<div className="mainHeader lg:text-[32px] md:text-[24px] text-[20px] capitalize font-semibold">
 						100% Fresh Fruit
 					</div>
-					<p>
+					<p className="mt-[16px]">
 						Up to{" "}
 						<span className="px-[10px] py-[10px] bg-black font-bold text-[var(--yellow)] rounded-md mx-[10px]">
 							64% OFF
