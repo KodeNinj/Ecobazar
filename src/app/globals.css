@@ -100,7 +100,7 @@ body {
 		@apply font-normal text-[10px];
 	}
 	.HotDealcontainer {
-		@apply grid  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1  justify-center border-[2px] border-slate-100;
+		@apply grid  lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-1  justify-center border-[2px] border-slate-100;
 	}
 	.rating {
 		@apply flex flex-wrap items-center justify-center gap-3 text-[12px] text-[var(--priceGrey)] md:mt-[8px];
