@@ -99,4 +99,23 @@ body {
 	.cardTime span {
 		@apply font-normal text-[10px];
 	}
+	.HotDealcontainer {
+		@apply grid  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1  justify-center border-[2px] border-slate-100;
+	}
+	.rating {
+		@apply flex flex-wrap items-center justify-center gap-3 text-[12px] text-[var(--priceGrey)] md:mt-[8px];
+	}
+	.iconsBtn {
+		@apply p-[10px] bg-white rounded-full border-[2px] border-[var(--iconBg)] shadow-sm flex items-center justify-center;
+	}
+	.btnCart {
+		@apply px-[24px] py-[10px] bg-[var(--Primary)] text-white flex-1 rounded-full mx-[10px] text-[18px];
+	}
+	.Timecontainer {
+		@apply flex items-start justify-center md:text-[20px] text-[16px] font-medium gap-4 text-center;
+	}
+	.timepara {
+		@apply text-[12px] text-[var(--priceGrey)]
+
+	}
 }

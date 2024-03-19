@@ -7,14 +7,19 @@ import { FaRegHeart } from "react-icons/fa6";
 import Link from "next/link";
 
 const HotDeals = () => {
+	// "Style in css: means the tailwind css class has been compressed into the global css"
 	return (
 		<section className="lg:px-[100px] md:px-[40px] px-[20px] ">
 			<Header
 				title="Hot Deals"
 				view_all="View all"
 			/>
+
 			<div className="w-full h-auto py-[24px] my-[32px]">
-				<div className="container  grid  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1  justify-center border-[2px] border-slate-100 ">
+				{/* The container for the entire grids */}
+				{/* style in css */}
+				<div className="HotDealcontainer   ">
+					{/* The Big weird box for the Top deal */}
 					<div className="mainDeal mb-[10px] row-span-2 col-span-2 ">
 						<Image
 							src={require("../../Assets/focusImg.png")}
@@ -22,17 +27,18 @@ const HotDeals = () => {
 							className="flex justify-center w-[70%] mx-[15%]"
 						/>
 						<div className="CTAbtns flex justify-around items-center md:px-[40px] px-[10px]">
+							{/* style in css */}
 							<Link
 								href="/"
-								className="p-[10px] bg-white rounded-full border-[2px] border-[var(--iconBg)] shadow-sm flex items-center justify-center">
+								className="iconsBtn">
 								<FaRegHeart size={18} />
 							</Link>
-							<button className="px-[24px] py-[10px] bg-[var(--Primary)] text-white flex-1 rounded-full mx-[10px] text-[18px]">
-								Add To Cart
-							</button>
+							{/* style in css */}
+							<button className="btnCart">Add To Cart</button>
+							{/* style in css */}
 							<Link
 								href="/"
-								className="p-[10px] bg-white rounded-full border-[2px] border-[var(--iconBg)] shadow-sm flex items-center justify-center">
+								className="iconsBtn">
 								<IoEyeOutline size={18} />
 							</Link>
 						</div>
@@ -45,8 +51,8 @@ const HotDeals = () => {
 								$12.00 <s className="text-[var(--priceGrey)]">$24.00</s>
 							</p>
 						</div>
-						{/* RATING */}
-						<div className="rating flex flex-wrap items-center justify-center gap-3 text-[12px] text-[var(--priceGrey)] md:mt-[8px]">
+						{/* RATING - style in css*/}
+						<div className="rating ">
 							<Image
 								src={require("../../Assets/stars.png")}
 								alt="rating"
@@ -58,25 +64,30 @@ const HotDeals = () => {
 							<p className="text-center md:text-[16px] sm:text-[14px] text-[12px] text-[var(--priceGrey)] mb-[5px]">
 								Hurry up! Offer ends In:
 							</p>
-							<div className="Timecontainer flex items-start justify-center md:text-[20px] text-[16px] font-medium gap-4 text-center">
+							{/* style in css */}
+							<div className="Timecontainer ">
 								<div className="day">
 									<h4>02</h4>
-									<p className="text-[12px] text-[var(--priceGrey)]">DAYS</p>
+									{/* style in css */}
+									<p className="timepara">DAYS</p>
 								</div>
 								<span className="text-[var(--priceGrey)]">:</span>
 								<div className="hrs">
 									<h4>23</h4>
-									<p className="text-[12px] text-[var(--priceGrey)]">HOURS</p>
+									{/* style in css */}
+									<p className="timepara">HOURS</p>
 								</div>
 								<span className="text-[var(--priceGrey)]">:</span>
 								<div className="mins">
 									<h4>34</h4>
-									<p className="text-[12px] text-[var(--priceGrey)]">MINS</p>
+									{/* style in css */}
+									<p className="timepara">MINS</p>
 								</div>
 								<span className="text-[var(--priceGrey)]">:</span>
 								<div className="secs">
 									<h4>57</h4>
-									<p className="text-[12px] text-[var(--priceGrey)]">SECS</p>
+									{/* style in css */}
+									<p className="timepara">SECS</p>
 								</div>
 							</div>
 						</div>
